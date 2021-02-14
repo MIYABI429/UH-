@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Main {
 	public static void main(String[] args) {
+		while(true) {
 		Scanner scanner = new Scanner(System.in);
 	System.out.println("/////////////////////////////////");
 	System.out.println("メニュー");
@@ -15,7 +16,7 @@ public class Main {
 	System.out.println("終了99");
 	System.out.println("/////////////////////////////////");
 	System.out.println("何番の処理を行いますか?");
-	while(true) {
+
 	int a = scanner.nextInt();
 
 	switch (a) {
